@@ -1,0 +1,12 @@
+@import "parials/variables";
+
+.container {
+  @media(max-width: 992px) {
+    max-width: unset !important;
+  }
+}
+
+.layout {
+  max-width: 1460px;
+  margin: 0 auto;
+}

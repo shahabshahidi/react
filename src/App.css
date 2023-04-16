@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+* {
+    user-select: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.MuiDataGrid-columnHeaderTitleContainer {
+    justify-content: center;
+}
+
+.css-1usso8h-MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.css-1usso8h-MuiDataGrid-root .MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+.container {
+    /*width: 90%;*/
+    /*margin: 0 auto;*/
+}
